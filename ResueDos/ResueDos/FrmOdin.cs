@@ -28,5 +28,16 @@ namespace ResueDos
             FrmConfig frmconfig = new FrmConfig();
             frmconfig.Show();
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnTips_Click(object sender, EventArgs e)
+        {
+            FrmTips frmtips = new FrmTips();
+            frmtips.Show();
+        }
     }
 }
