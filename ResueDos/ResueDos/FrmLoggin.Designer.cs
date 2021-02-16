@@ -40,65 +40,69 @@ namespace ResueDos
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(43, 32);
+            this.lblUsuario.Location = new System.Drawing.Point(38, 30);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(57, 17);
+            this.lblUsuario.Size = new System.Drawing.Size(54, 17);
             this.lblUsuario.TabIndex = 0;
             this.lblUsuario.Text = "Usuario";
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(130, 27);
+            this.txtUsuario.Location = new System.Drawing.Point(114, 25);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(193, 22);
+            this.txtUsuario.Size = new System.Drawing.Size(169, 23);
             this.txtUsuario.TabIndex = 1;
             // 
             // txtContrasena
             // 
-            this.txtContrasena.Location = new System.Drawing.Point(130, 55);
+            this.txtContrasena.Location = new System.Drawing.Point(114, 52);
             this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.Size = new System.Drawing.Size(193, 22);
+            this.txtContrasena.Size = new System.Drawing.Size(169, 23);
             this.txtContrasena.TabIndex = 3;
             // 
             // lblContrasena
             // 
             this.lblContrasena.AutoSize = true;
-            this.lblContrasena.Location = new System.Drawing.Point(43, 60);
+            this.lblContrasena.Location = new System.Drawing.Point(38, 56);
             this.lblContrasena.Name = "lblContrasena";
-            this.lblContrasena.Size = new System.Drawing.Size(81, 17);
+            this.lblContrasena.Size = new System.Drawing.Size(76, 17);
             this.lblContrasena.TabIndex = 2;
             this.lblContrasena.Text = "Contraseña";
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(46, 83);
+            this.btnEntrar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnEntrar.Location = new System.Drawing.Point(40, 78);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(193, 34);
+            this.btnEntrar.Size = new System.Drawing.Size(169, 32);
             this.btnEntrar.TabIndex = 4;
             this.btnEntrar.Text = "Entrar";
-            this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.UseVisualStyleBackColor = false;
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(245, 83);
+            this.btnCerrar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnCerrar.Location = new System.Drawing.Point(214, 78);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(78, 34);
+            this.btnCerrar.Size = new System.Drawing.Size(68, 32);
             this.btnCerrar.TabIndex = 5;
             this.btnCerrar.Text = "Cerrar";
-            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.UseVisualStyleBackColor = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // FrmLoggin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(381, 155);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(333, 145);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.lblContrasena);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblUsuario);
+            this.Font = new System.Drawing.Font("Calibri", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FrmLoggin";
             this.Text = "Sign-in";
             this.ResumeLayout(false);

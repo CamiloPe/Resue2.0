@@ -38,64 +38,71 @@ namespace ResueDos
             // 
             // btnRegistrarse
             // 
-            this.btnRegistrarse.Location = new System.Drawing.Point(12, 12);
+            this.btnRegistrarse.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnRegistrarse.Location = new System.Drawing.Point(10, 11);
             this.btnRegistrarse.Name = "btnRegistrarse";
-            this.btnRegistrarse.Size = new System.Drawing.Size(134, 49);
+            this.btnRegistrarse.Size = new System.Drawing.Size(117, 46);
             this.btnRegistrarse.TabIndex = 0;
             this.btnRegistrarse.Text = "Registrarse";
-            this.btnRegistrarse.UseVisualStyleBackColor = true;
+            this.btnRegistrarse.UseVisualStyleBackColor = false;
             this.btnRegistrarse.Click += new System.EventHandler(this.btnRegistrarse_Click);
             // 
             // btnConfig
             // 
-            this.btnConfig.Location = new System.Drawing.Point(12, 122);
+            this.btnConfig.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnConfig.Location = new System.Drawing.Point(10, 63);
             this.btnConfig.Name = "btnConfig";
-            this.btnConfig.Size = new System.Drawing.Size(134, 49);
+            this.btnConfig.Size = new System.Drawing.Size(117, 46);
             this.btnConfig.TabIndex = 2;
             this.btnConfig.Text = "Configuración";
-            this.btnConfig.UseVisualStyleBackColor = true;
+            this.btnConfig.UseVisualStyleBackColor = false;
             this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(12, 232);
+            this.btnCerrar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnCerrar.Location = new System.Drawing.Point(10, 114);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(134, 49);
+            this.btnCerrar.Size = new System.Drawing.Size(240, 46);
             this.btnCerrar.TabIndex = 4;
             this.btnCerrar.Text = "Cerrar";
-            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.UseVisualStyleBackColor = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnTips
             // 
-            this.btnTips.Location = new System.Drawing.Point(12, 177);
+            this.btnTips.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnTips.Location = new System.Drawing.Point(133, 63);
             this.btnTips.Name = "btnTips";
-            this.btnTips.Size = new System.Drawing.Size(134, 49);
+            this.btnTips.Size = new System.Drawing.Size(117, 46);
             this.btnTips.TabIndex = 3;
             this.btnTips.Text = "Tips";
-            this.btnTips.UseVisualStyleBackColor = true;
+            this.btnTips.UseVisualStyleBackColor = false;
             this.btnTips.Click += new System.EventHandler(this.btnTips_Click);
             // 
             // btnSignIn
             // 
-            this.btnSignIn.Location = new System.Drawing.Point(12, 67);
+            this.btnSignIn.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnSignIn.Location = new System.Drawing.Point(133, 11);
             this.btnSignIn.Name = "btnSignIn";
-            this.btnSignIn.Size = new System.Drawing.Size(134, 49);
+            this.btnSignIn.Size = new System.Drawing.Size(117, 46);
             this.btnSignIn.TabIndex = 1;
             this.btnSignIn.Text = "Sign in";
-            this.btnSignIn.UseVisualStyleBackColor = true;
+            this.btnSignIn.UseVisualStyleBackColor = false;
             this.btnSignIn.Click += new System.EventHandler(this.btnSignIn_Click);
             // 
             // FrmOdin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 389);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(267, 184);
             this.Controls.Add(this.btnSignIn);
             this.Controls.Add(this.btnTips);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnConfig);
             this.Controls.Add(this.btnRegistrarse);
+            this.Font = new System.Drawing.Font("Calibri", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FrmOdin";
             this.Text = "Menu principal";
             this.ResumeLayout(false);
