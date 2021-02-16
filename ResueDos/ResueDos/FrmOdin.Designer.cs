@@ -33,6 +33,7 @@ namespace ResueDos
             this.btnConfig = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnTips = new System.Windows.Forms.Button();
+            this.btnSignIn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRegistrarse
@@ -47,27 +48,27 @@ namespace ResueDos
             // 
             // btnConfig
             // 
-            this.btnConfig.Location = new System.Drawing.Point(12, 67);
+            this.btnConfig.Location = new System.Drawing.Point(12, 122);
             this.btnConfig.Name = "btnConfig";
             this.btnConfig.Size = new System.Drawing.Size(134, 49);
-            this.btnConfig.TabIndex = 1;
+            this.btnConfig.TabIndex = 2;
             this.btnConfig.Text = "Configuración";
             this.btnConfig.UseVisualStyleBackColor = true;
             this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(12, 208);
+            this.btnCerrar.Location = new System.Drawing.Point(12, 232);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(134, 49);
-            this.btnCerrar.TabIndex = 2;
+            this.btnCerrar.TabIndex = 4;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnTips
             // 
-            this.btnTips.Location = new System.Drawing.Point(12, 122);
+            this.btnTips.Location = new System.Drawing.Point(12, 177);
             this.btnTips.Name = "btnTips";
             this.btnTips.Size = new System.Drawing.Size(134, 49);
             this.btnTips.TabIndex = 3;
@@ -75,11 +76,22 @@ namespace ResueDos
             this.btnTips.UseVisualStyleBackColor = true;
             this.btnTips.Click += new System.EventHandler(this.btnTips_Click);
             // 
+            // btnSignIn
+            // 
+            this.btnSignIn.Location = new System.Drawing.Point(12, 67);
+            this.btnSignIn.Name = "btnSignIn";
+            this.btnSignIn.Size = new System.Drawing.Size(134, 49);
+            this.btnSignIn.TabIndex = 1;
+            this.btnSignIn.Text = "Sign in";
+            this.btnSignIn.UseVisualStyleBackColor = true;
+            this.btnSignIn.Click += new System.EventHandler(this.btnSignIn_Click);
+            // 
             // FrmOdin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 269);
+            this.ClientSize = new System.Drawing.Size(350, 389);
+            this.Controls.Add(this.btnSignIn);
             this.Controls.Add(this.btnTips);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnConfig);
@@ -96,5 +108,6 @@ namespace ResueDos
         private System.Windows.Forms.Button btnConfig;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Button btnTips;
+        private System.Windows.Forms.Button btnSignIn;
     }
 }

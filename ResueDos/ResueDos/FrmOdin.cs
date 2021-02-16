@@ -39,5 +39,11 @@ namespace ResueDos
             FrmTips frmtips = new FrmTips();
             frmtips.Show();
         }
+
+        private void btnSignIn_Click(object sender, EventArgs e)
+        {
+            FrmLoggin frmloggin = new FrmLoggin();
+            frmloggin.Show();
+        }
     }
 }
