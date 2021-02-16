@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ResueDos
 {
-    public partial class Form1 : Form
+    public partial class FrmRegistrarse : Form
     {
-        public Form1()
+        public FrmRegistrarse()
         {
             InitializeComponent();
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
