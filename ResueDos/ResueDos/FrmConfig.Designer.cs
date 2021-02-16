@@ -66,7 +66,7 @@ namespace ResueDos
             this.grpProblemas.Controls.Add(this.chcInsomnio);
             this.grpProblemas.Location = new System.Drawing.Point(10, 11);
             this.grpProblemas.Name = "grpProblemas";
-            this.grpProblemas.Size = new System.Drawing.Size(272, 129);
+            this.grpProblemas.Size = new System.Drawing.Size(290, 129);
             this.grpProblemas.TabIndex = 0;
             this.grpProblemas.TabStop = false;
             this.grpProblemas.Text = "Problemas de sueño";
@@ -120,7 +120,7 @@ namespace ResueDos
             this.grpHabitos.Controls.Add(this.chcMuchoTrabajo);
             this.grpHabitos.Location = new System.Drawing.Point(10, 146);
             this.grpHabitos.Name = "grpHabitos";
-            this.grpHabitos.Size = new System.Drawing.Size(272, 157);
+            this.grpHabitos.Size = new System.Drawing.Size(290, 157);
             this.grpHabitos.TabIndex = 1;
             this.grpHabitos.TabStop = false;
             this.grpHabitos.Text = "Hábitos";
@@ -179,9 +179,9 @@ namespace ResueDos
             // 
             this.grpMedicina.Controls.Add(this.panel2);
             this.grpMedicina.Controls.Add(this.pnlTomoMedicina);
-            this.grpMedicina.Location = new System.Drawing.Point(288, 11);
+            this.grpMedicina.Location = new System.Drawing.Point(307, 11);
             this.grpMedicina.Name = "grpMedicina";
-            this.grpMedicina.Size = new System.Drawing.Size(270, 174);
+            this.grpMedicina.Size = new System.Drawing.Size(284, 174);
             this.grpMedicina.TabIndex = 2;
             this.grpMedicina.TabStop = false;
             this.grpMedicina.Text = "Medicina";
@@ -193,7 +193,7 @@ namespace ResueDos
             this.panel2.Controls.Add(this.lblRecetada);
             this.panel2.Location = new System.Drawing.Point(5, 98);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(264, 77);
+            this.panel2.Size = new System.Drawing.Size(275, 77);
             this.panel2.TabIndex = 4;
             // 
             // radioButton1
@@ -234,13 +234,13 @@ namespace ResueDos
             this.pnlTomoMedicina.Controls.Add(this.rdbNo);
             this.pnlTomoMedicina.Location = new System.Drawing.Point(5, 28);
             this.pnlTomoMedicina.Name = "pnlTomoMedicina";
-            this.pnlTomoMedicina.Size = new System.Drawing.Size(262, 68);
+            this.pnlTomoMedicina.Size = new System.Drawing.Size(277, 68);
             this.pnlTomoMedicina.TabIndex = 3;
             // 
             // lblIntento
             // 
             this.lblIntento.AutoSize = true;
-            this.lblIntento.Location = new System.Drawing.Point(0, 0);
+            this.lblIntento.Location = new System.Drawing.Point(1, 0);
             this.lblIntento.Name = "lblIntento";
             this.lblIntento.Size = new System.Drawing.Size(274, 17);
             this.lblIntento.TabIndex = 2;
@@ -271,7 +271,7 @@ namespace ResueDos
             // btnTips
             // 
             this.btnTips.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnTips.Location = new System.Drawing.Point(288, 202);
+            this.btnTips.Location = new System.Drawing.Point(306, 207);
             this.btnTips.Name = "btnTips";
             this.btnTips.Size = new System.Drawing.Size(270, 45);
             this.btnTips.TabIndex = 3;
@@ -281,7 +281,7 @@ namespace ResueDos
             // btnCerrar
             // 
             this.btnCerrar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnCerrar.Location = new System.Drawing.Point(288, 253);
+            this.btnCerrar.Location = new System.Drawing.Point(306, 258);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(268, 45);
             this.btnCerrar.TabIndex = 4;
@@ -294,7 +294,7 @@ namespace ResueDos
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(576, 328);
+            this.ClientSize = new System.Drawing.Size(660, 328);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnTips);
             this.Controls.Add(this.grpMedicina);
