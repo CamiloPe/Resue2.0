@@ -302,6 +302,7 @@ namespace ResueDos
             this.Controls.Add(this.grpProblemas);
             this.Font = new System.Drawing.Font("Calibri", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FrmConfig";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Configuración";
             this.grpProblemas.ResumeLayout(false);
             this.grpProblemas.PerformLayout();

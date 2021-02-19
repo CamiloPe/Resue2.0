@@ -174,10 +174,10 @@ namespace ResueDos
             // tbpTipsPersonalizados
             // 
             this.tbpTipsPersonalizados.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.tbpTipsPersonalizados.Location = new System.Drawing.Point(4, 25);
+            this.tbpTipsPersonalizados.Location = new System.Drawing.Point(4, 24);
             this.tbpTipsPersonalizados.Name = "tbpTipsPersonalizados";
             this.tbpTipsPersonalizados.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpTipsPersonalizados.Size = new System.Drawing.Size(668, 332);
+            this.tbpTipsPersonalizados.Size = new System.Drawing.Size(668, 333);
             this.tbpTipsPersonalizados.TabIndex = 1;
             this.tbpTipsPersonalizados.Text = "Tips personalizados";
             // 
@@ -202,6 +202,7 @@ namespace ResueDos
             this.Controls.Add(this.tbcTips);
             this.Font = new System.Drawing.Font("Calibri", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FrmTips";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tips";
             this.tbcTips.ResumeLayout(false);
             this.tbpTipsBasicos.ResumeLayout(false);

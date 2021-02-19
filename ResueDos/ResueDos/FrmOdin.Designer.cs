@@ -104,6 +104,7 @@ namespace ResueDos
             this.Controls.Add(this.btnRegistrarse);
             this.Font = new System.Drawing.Font("Calibri", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FrmOdin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu principal";
             this.ResumeLayout(false);
 

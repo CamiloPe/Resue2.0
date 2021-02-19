@@ -43,6 +43,7 @@ namespace ResueDos
             this.grpFoto = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.grpDatosRegistro = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lblEdad = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.lblConfirmarContrasena = new System.Windows.Forms.Label();
@@ -54,7 +55,6 @@ namespace ResueDos
             this.lblEMail = new System.Windows.Forms.Label();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.grpDatosPersonales.SuspendLayout();
             this.grpGenero.SuspendLayout();
             this.grpFoto.SuspendLayout();
@@ -207,6 +207,79 @@ namespace ResueDos
             this.grpDatosRegistro.TabStop = false;
             this.grpDatosRegistro.Text = "Datos de registro";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "12 doce",
+            "13 trece",
+            "14 catorce",
+            "15 quince",
+            "16 dieciséis",
+            "17 diecisiete",
+            "18 dieciocho",
+            "19 diecinueve",
+            "20 veinte",
+            "21 veintiuno",
+            "22 veintidós",
+            "23 veintitrés",
+            "24 veinticuatro",
+            "25 veinticinco",
+            "26 veintiséis",
+            "27 veintisiete",
+            "28 veintiocho",
+            "29 veintinueve",
+            "30 treinta",
+            "31 treinta y uno",
+            "32 treinta y dos",
+            "33 treinta y tres",
+            "34 treinta y cuatro",
+            "35 treinta y cinco",
+            "36 treinta y seis",
+            "37 treinta y siete",
+            "38 treinta y ocho",
+            "39 treinta y nueve",
+            "40 cuarenta",
+            "41 cuarenta y uno",
+            "42 cuarenta y dos",
+            "43 cuarenta y tres",
+            "44 cuarenta y cuatro",
+            "45 cuarenta y cinco",
+            "46 cuarenta y seis",
+            "47 cuarenta y siete",
+            "48 cuarenta y ocho",
+            "49 cuarenta y nueve",
+            "50 cincuenta",
+            "51 cincuenta y uno",
+            "52 cincuenta y dos",
+            "53 cincuenta y tres",
+            "54 cincuenta y cuatro",
+            "55 cincuenta y cinco",
+            "56 cincuenta y seis",
+            "57 cincuenta y siete",
+            "58 cincuenta y ocho",
+            "59 cincuenta y nueve",
+            "60 sesenta",
+            "61 sesenta y uno ",
+            "62 sesenta y dos",
+            "63 sesenta y tres",
+            "64 sesenta y cuatro",
+            "65 sesenta y cinco",
+            "66 sesenta y seis",
+            "67 sesenta y siete",
+            "68 sesenta y ocho",
+            "69 sesenta y nueve",
+            "70 setenta",
+            "71 setenta y uno",
+            "72 setenta y dos",
+            "73 setenta y tres",
+            "74 setenta y cuatro",
+            "75 setenta y cinco"});
+            this.comboBox1.Location = new System.Drawing.Point(157, 125);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(163, 23);
+            this.comboBox1.TabIndex = 15;
+            // 
             // lblEdad
             // 
             this.lblEdad.AutoSize = true;
@@ -301,79 +374,6 @@ namespace ResueDos
             this.btnCerrar.UseVisualStyleBackColor = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "12 doce",
-            "13 trece",
-            "14 catorce",
-            "15 quince",
-            "16 dieciséis",
-            "17 diecisiete",
-            "18 dieciocho",
-            "19 diecinueve",
-            "20 veinte",
-            "21 veintiuno",
-            "22 veintidós",
-            "23 veintitrés",
-            "24 veinticuatro",
-            "25 veinticinco",
-            "26 veintiséis",
-            "27 veintisiete",
-            "28 veintiocho",
-            "29 veintinueve",
-            "30 treinta",
-            "31 treinta y uno",
-            "32 treinta y dos",
-            "33 treinta y tres",
-            "34 treinta y cuatro",
-            "35 treinta y cinco",
-            "36 treinta y seis",
-            "37 treinta y siete",
-            "38 treinta y ocho",
-            "39 treinta y nueve",
-            "40 cuarenta",
-            "41 cuarenta y uno",
-            "42 cuarenta y dos",
-            "43 cuarenta y tres",
-            "44 cuarenta y cuatro",
-            "45 cuarenta y cinco",
-            "46 cuarenta y seis",
-            "47 cuarenta y siete",
-            "48 cuarenta y ocho",
-            "49 cuarenta y nueve",
-            "50 cincuenta",
-            "51 cincuenta y uno",
-            "52 cincuenta y dos",
-            "53 cincuenta y tres",
-            "54 cincuenta y cuatro",
-            "55 cincuenta y cinco",
-            "56 cincuenta y seis",
-            "57 cincuenta y siete",
-            "58 cincuenta y ocho",
-            "59 cincuenta y nueve",
-            "60 sesenta",
-            "61 sesenta y uno ",
-            "62 sesenta y dos",
-            "63 sesenta y tres",
-            "64 sesenta y cuatro",
-            "65 sesenta y cinco",
-            "66 sesenta y seis",
-            "67 sesenta y siete",
-            "68 sesenta y ocho",
-            "69 sesenta y nueve",
-            "70 setenta",
-            "71 setenta y uno",
-            "72 setenta y dos",
-            "73 setenta y tres",
-            "74 setenta y cuatro",
-            "75 setenta y cinco"});
-            this.comboBox1.Location = new System.Drawing.Point(157, 125);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(163, 23);
-            this.comboBox1.TabIndex = 15;
-            // 
             // FrmRegistrarse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -388,6 +388,7 @@ namespace ResueDos
             this.Controls.Add(this.grpDatosPersonales);
             this.Font = new System.Drawing.Font("Calibri", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FrmRegistrarse";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrarse";
             this.grpDatosPersonales.ResumeLayout(false);
             this.grpDatosPersonales.PerformLayout();

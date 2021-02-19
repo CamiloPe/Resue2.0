@@ -104,6 +104,7 @@ namespace ResueDos
             this.Controls.Add(this.lblUsuario);
             this.Font = new System.Drawing.Font("Calibri", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FrmLoggin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sign-in";
             this.ResumeLayout(false);
             this.PerformLayout();
